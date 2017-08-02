@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
-    let items:[String] = ["item 1", "item 2", "item 3"]
+    let items:[[String]] = [["A1", "A2", "A3"], ["B1", "B2"], ["C1"]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,15 +18,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return items.count
     }
     
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return items[component].count
+    }
+    
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return items[row]
+        return items[component][row]
     }
 
     override func didReceiveMemoryWarning() {
