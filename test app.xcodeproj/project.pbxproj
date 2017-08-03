@@ -23,6 +23,7 @@
 		CA5DFD801F33C40E00D35CAB /* SegmentedControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD7F1F33C40E00D35CAB /* SegmentedControl.storyboard */; };
 		CA5DFD821F33C49C00D35CAB /* segmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD811F33C49C00D35CAB /* segmentedViewController.swift */; };
 		CA5DFD841F33C80200D35CAB /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD831F33C80200D35CAB /* ImagesViewController.swift */; };
+		CA5DFD861F33CB9600D35CAB /* ImagesView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD851F33CB9600D35CAB /* ImagesView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		CA5DFD7F1F33C40E00D35CAB /* SegmentedControl.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SegmentedControl.storyboard; sourceTree = "<group>"; };
 		CA5DFD811F33C49C00D35CAB /* segmentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segmentedViewController.swift; sourceTree = "<group>"; };
 		CA5DFD831F33C80200D35CAB /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		CA5DFD851F33CB9600D35CAB /* ImagesView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImagesView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				CA5DFD791F33B16300D35CAB /* Activity & Switch.storyboard */,
 				CA5DFD7F1F33C40E00D35CAB /* SegmentedControl.storyboard */,
 				CA5DFD831F33C80200D35CAB /* ImagesViewController.swift */,
+				CA5DFD851F33CB9600D35CAB /* ImagesView.storyboard */,
 				CA5DFD811F33C49C00D35CAB /* segmentedViewController.swift */,
 				CA5DFD7D1F33C13300D35CAB /* Switch & ActivityViewController.swift */,
 				CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */,
@@ -268,6 +271,7 @@
 				CA5DFD4F1F327BD600D35CAB /* Assets.xcassets in Resources */,
 				CA5DFD4A1F327BD600D35CAB /* Main.storyboard in Resources */,
 				CA5DFD7A1F33B16300D35CAB /* Activity & Switch.storyboard in Resources */,
+				CA5DFD861F33CB9600D35CAB /* ImagesView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
