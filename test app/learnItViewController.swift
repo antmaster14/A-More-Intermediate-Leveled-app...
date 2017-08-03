@@ -33,7 +33,12 @@ class learnItViewController: UIViewController {
             _: UIAlertAction) in
             print("Cancelled!")
         }
+        let action2 = UIAlertAction(title: "Install Now", style: .destructive, handler: { (
+            _:UIAlertAction) in
+            print("godem")
+        })
         alert.addAction(action1)
+        alert.addAction(action2)
         self.present(alert, animated: true) {
             print("present complete")
         }
