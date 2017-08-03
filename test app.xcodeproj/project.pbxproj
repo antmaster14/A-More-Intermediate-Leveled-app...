@@ -15,11 +15,14 @@
 		CA5DFD521F327BD600D35CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD501F327BD600D35CAB /* LaunchScreen.storyboard */; };
 		CA5DFD5D1F327BD600D35CAB /* test_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD5C1F327BD600D35CAB /* test_appTests.swift */; };
 		CA5DFD681F327BD600D35CAB /* test_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD671F327BD600D35CAB /* test_appUITests.swift */; };
-		CA5DFD761F33AE0C00D35CAB /* learnItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD751F33AE0C00D35CAB /* learnItViewController.swift */; };
+		CA5DFD761F33AE0C00D35CAB /* UIAlert,UIButton,andLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD751F33AE0C00D35CAB /* UIAlert,UIButton,andLabelViewController.swift */; };
 		CA5DFD781F33B14000D35CAB /* UIAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD771F33B14000D35CAB /* UIAlertViewController.swift */; };
-		CA5DFD7A1F33B16300D35CAB /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD791F33B16300D35CAB /* Secondary.storyboard */; };
+		CA5DFD7A1F33B16300D35CAB /* Activity & Switch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD791F33B16300D35CAB /* Activity & Switch.storyboard */; };
 		CA5DFD7C1F33B1BA00D35CAB /* Tertiary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */; };
-		CA5DFD7E1F33C13300D35CAB /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD7D1F33C13300D35CAB /* FourthViewController.swift */; };
+		CA5DFD7E1F33C13300D35CAB /* Switch & ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD7D1F33C13300D35CAB /* Switch & ActivityViewController.swift */; };
+		CA5DFD801F33C40E00D35CAB /* SegmentedControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD7F1F33C40E00D35CAB /* SegmentedControl.storyboard */; };
+		CA5DFD821F33C49C00D35CAB /* segmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD811F33C49C00D35CAB /* segmentedViewController.swift */; };
+		CA5DFD841F33C80200D35CAB /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD831F33C80200D35CAB /* ImagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +57,14 @@
 		CA5DFD631F327BD600D35CAB /* test appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5DFD671F327BD600D35CAB /* test_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_appUITests.swift; sourceTree = "<group>"; };
 		CA5DFD691F327BD600D35CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA5DFD751F33AE0C00D35CAB /* learnItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = learnItViewController.swift; sourceTree = "<group>"; };
+		CA5DFD751F33AE0C00D35CAB /* UIAlert,UIButton,andLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlert,UIButton,andLabelViewController.swift"; sourceTree = "<group>"; };
 		CA5DFD771F33B14000D35CAB /* UIAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertViewController.swift; sourceTree = "<group>"; };
-		CA5DFD791F33B16300D35CAB /* Secondary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Secondary.storyboard; sourceTree = "<group>"; };
+		CA5DFD791F33B16300D35CAB /* Activity & Switch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Activity & Switch.storyboard"; sourceTree = "<group>"; };
 		CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tertiary.storyboard; sourceTree = "<group>"; };
-		CA5DFD7D1F33C13300D35CAB /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CA5DFD7D1F33C13300D35CAB /* Switch & ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Switch & ActivityViewController.swift"; sourceTree = "<group>"; };
+		CA5DFD7F1F33C40E00D35CAB /* SegmentedControl.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SegmentedControl.storyboard; sourceTree = "<group>"; };
+		CA5DFD811F33C49C00D35CAB /* segmentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segmentedViewController.swift; sourceTree = "<group>"; };
+		CA5DFD831F33C80200D35CAB /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +117,13 @@
 			children = (
 				CA5DFD441F327BD600D35CAB /* AppDelegate.swift */,
 				CA5DFD461F327BD600D35CAB /* ViewController.swift */,
-				CA5DFD751F33AE0C00D35CAB /* learnItViewController.swift */,
+				CA5DFD751F33AE0C00D35CAB /* UIAlert,UIButton,andLabelViewController.swift */,
 				CA5DFD771F33B14000D35CAB /* UIAlertViewController.swift */,
-				CA5DFD791F33B16300D35CAB /* Secondary.storyboard */,
-				CA5DFD7D1F33C13300D35CAB /* FourthViewController.swift */,
+				CA5DFD791F33B16300D35CAB /* Activity & Switch.storyboard */,
+				CA5DFD7F1F33C40E00D35CAB /* SegmentedControl.storyboard */,
+				CA5DFD831F33C80200D35CAB /* ImagesViewController.swift */,
+				CA5DFD811F33C49C00D35CAB /* segmentedViewController.swift */,
+				CA5DFD7D1F33C13300D35CAB /* Switch & ActivityViewController.swift */,
 				CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */,
 				CA5DFD481F327BD600D35CAB /* Main.storyboard */,
 				CA5DFD4E1F327BD600D35CAB /* Assets.xcassets */,
@@ -255,9 +264,10 @@
 			files = (
 				CA5DFD7C1F33B1BA00D35CAB /* Tertiary.storyboard in Resources */,
 				CA5DFD521F327BD600D35CAB /* LaunchScreen.storyboard in Resources */,
+				CA5DFD801F33C40E00D35CAB /* SegmentedControl.storyboard in Resources */,
 				CA5DFD4F1F327BD600D35CAB /* Assets.xcassets in Resources */,
 				CA5DFD4A1F327BD600D35CAB /* Main.storyboard in Resources */,
-				CA5DFD7A1F33B16300D35CAB /* Secondary.storyboard in Resources */,
+				CA5DFD7A1F33B16300D35CAB /* Activity & Switch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5DFD7E1F33C13300D35CAB /* FourthViewController.swift in Sources */,
+				CA5DFD7E1F33C13300D35CAB /* Switch & ActivityViewController.swift in Sources */,
 				CA5DFD781F33B14000D35CAB /* UIAlertViewController.swift in Sources */,
-				CA5DFD761F33AE0C00D35CAB /* learnItViewController.swift in Sources */,
+				CA5DFD761F33AE0C00D35CAB /* UIAlert,UIButton,andLabelViewController.swift in Sources */,
 				CA5DFD471F327BD600D35CAB /* ViewController.swift in Sources */,
 				CA5DFD4D1F327BD600D35CAB /* test_app.xcdatamodeld in Sources */,
+				CA5DFD841F33C80200D35CAB /* ImagesViewController.swift in Sources */,
 				CA5DFD451F327BD600D35CAB /* AppDelegate.swift in Sources */,
+				CA5DFD821F33C49C00D35CAB /* segmentedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
