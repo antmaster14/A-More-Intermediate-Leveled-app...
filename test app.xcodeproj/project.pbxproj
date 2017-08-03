@@ -15,6 +15,10 @@
 		CA5DFD521F327BD600D35CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD501F327BD600D35CAB /* LaunchScreen.storyboard */; };
 		CA5DFD5D1F327BD600D35CAB /* test_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD5C1F327BD600D35CAB /* test_appTests.swift */; };
 		CA5DFD681F327BD600D35CAB /* test_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD671F327BD600D35CAB /* test_appUITests.swift */; };
+		CA5DFD761F33AE0C00D35CAB /* learnItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD751F33AE0C00D35CAB /* learnItViewController.swift */; };
+		CA5DFD781F33B14000D35CAB /* UIAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5DFD771F33B14000D35CAB /* UIAlertViewController.swift */; };
+		CA5DFD7A1F33B16300D35CAB /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD791F33B16300D35CAB /* Secondary.storyboard */; };
+		CA5DFD7C1F33B1BA00D35CAB /* Tertiary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		CA5DFD631F327BD600D35CAB /* test appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5DFD671F327BD600D35CAB /* test_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_appUITests.swift; sourceTree = "<group>"; };
 		CA5DFD691F327BD600D35CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5DFD751F33AE0C00D35CAB /* learnItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = learnItViewController.swift; sourceTree = "<group>"; };
+		CA5DFD771F33B14000D35CAB /* UIAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertViewController.swift; sourceTree = "<group>"; };
+		CA5DFD791F33B16300D35CAB /* Secondary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Secondary.storyboard; sourceTree = "<group>"; };
+		CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tertiary.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				CA5DFD441F327BD600D35CAB /* AppDelegate.swift */,
 				CA5DFD461F327BD600D35CAB /* ViewController.swift */,
+				CA5DFD751F33AE0C00D35CAB /* learnItViewController.swift */,
+				CA5DFD771F33B14000D35CAB /* UIAlertViewController.swift */,
+				CA5DFD791F33B16300D35CAB /* Secondary.storyboard */,
+				CA5DFD7B1F33B1BA00D35CAB /* Tertiary.storyboard */,
 				CA5DFD481F327BD600D35CAB /* Main.storyboard */,
 				CA5DFD4E1F327BD600D35CAB /* Assets.xcassets */,
 				CA5DFD501F327BD600D35CAB /* LaunchScreen.storyboard */,
@@ -238,9 +250,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5DFD7C1F33B1BA00D35CAB /* Tertiary.storyboard in Resources */,
 				CA5DFD521F327BD600D35CAB /* LaunchScreen.storyboard in Resources */,
 				CA5DFD4F1F327BD600D35CAB /* Assets.xcassets in Resources */,
 				CA5DFD4A1F327BD600D35CAB /* Main.storyboard in Resources */,
+				CA5DFD7A1F33B16300D35CAB /* Secondary.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA5DFD781F33B14000D35CAB /* UIAlertViewController.swift in Sources */,
+				CA5DFD761F33AE0C00D35CAB /* learnItViewController.swift in Sources */,
 				CA5DFD471F327BD600D35CAB /* ViewController.swift in Sources */,
 				CA5DFD4D1F327BD600D35CAB /* test_app.xcdatamodeld in Sources */,
 				CA5DFD451F327BD600D35CAB /* AppDelegate.swift in Sources */,
@@ -520,6 +536,7 @@
 				CA5DFD6E1F327BD600D35CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5DFD6F1F327BD600D35CAB /* Build configuration list for PBXNativeTarget "test appTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +545,7 @@
 				CA5DFD711F327BD600D35CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5DFD721F327BD600D35CAB /* Build configuration list for PBXNativeTarget "test appUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +554,7 @@
 				CA5DFD741F327BD600D35CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
