@@ -1,5 +1,5 @@
 //
-//  UIAlertViewController.swift
+//  FourthViewController.swift
 //  test app
 //
 //  Created by Anthony Tech Turner on 8/3/17.
@@ -8,17 +8,20 @@
 
 import UIKit
 
-class UIAlertViewController: UIViewController {
-    @IBOutlet weak var progBar: UIProgressView!
+class FourthViewController: UIViewController {
+    @IBOutlet weak var myIndicator: UIActivityIndicatorView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func didMoveSlider(_ sender: UISlider) {
-        let percent:Float = sender.value / sender.maximumValue
-        progBar.progress = percent
+    @IBAction func switchDidChange(_ sender: UISwitch) {
+        if myIndicator.isAnimating {
+            myIndicator.stopAnimating()
+        } else {
+            myIndicator.startAnimating()
+        }
     }
 
     override func didReceiveMemoryWarning() {

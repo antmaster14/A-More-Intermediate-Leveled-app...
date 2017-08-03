@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="8Wx-bn-Mgl">
             <objects>
-                <viewController storyboardIdentifier="AlertBoard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cHT-De-oj5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AlertBoard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cHT-De-oj5" customClass="FourthViewController" customModule="test_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S3A-x2-oi7"/>
                         <viewControllerLayoutGuide type="bottom" id="Bd0-ng-Pbb"/>
@@ -20,8 +20,25 @@
                     <view key="view" contentMode="scaleToFill" id="ETa-DS-Vjh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nxk-Pc-DYp">
+                                <rect key="frame" x="16" y="28" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchDidChange:" destination="cHT-De-oj5" eventType="valueChanged" id="XcC-Jz-sWa"/>
+                                </connections>
+                            </switch>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="W2D-0B-VjV">
+                                <rect key="frame" x="8" y="59" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myIndicator" destination="W2D-0B-VjV" id="VgN-a2-OIF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pkY-NV-Cw7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
